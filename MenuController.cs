@@ -13,6 +13,10 @@ public class MenuController : MonoBehaviour
     {
         SceneManager.LoadScene("howto");
     }
+    public void about()
+    {
+        SceneManager.LoadScene("about");
+    }
 
     public void MazeCreation()
     {
